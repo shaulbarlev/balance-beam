@@ -1,0 +1,7 @@
+// A temporary workers.dev deploy: static assets, no Worker script.
+// Delete it with: wrangler delete --name balance-beam
+{
+  "name": "balance-beam",
+  "compatibility_date": "2026-01-01",
+  "assets": { "directory": "./public" }
+}
